@@ -15,7 +15,8 @@ var projects = [
 			visualArts: true,
 			drama: true,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Newsies Medly - Vocal Point",
@@ -25,7 +26,8 @@ var projects = [
 			visualArts: false,
 			drama: true,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Anti-Drunk Driving PSAs",
@@ -35,7 +37,8 @@ var projects = [
 			visualArts: false,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Library of Congress",
@@ -45,7 +48,8 @@ var projects = [
 			visualArts: true,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Western Wilds",
@@ -55,7 +59,8 @@ var projects = [
 			visualArts: true,
 			drama: true,
 			tma: false,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Hyundai Lens of Loyalty",
@@ -65,7 +70,8 @@ var projects = [
 			visualArts: true,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Killers Music Video",
@@ -75,7 +81,8 @@ var projects = [
 			visualArts: true,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Selfie Police",
@@ -85,7 +92,8 @@ var projects = [
 			visualArts: true,
 			drama: false,
 			tma: false,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "BYU Virtual Campus Tour",
@@ -95,7 +103,8 @@ var projects = [
 			visualArts: false,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Vittana",
@@ -105,7 +114,8 @@ var projects = [
 			visualArts: true,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Sacred Gifts",
@@ -115,7 +125,8 @@ var projects = [
 			visualArts: true,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "GoPro Orchestra",
@@ -125,7 +136,8 @@ var projects = [
 			visualArts: false,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Driven",
@@ -135,7 +147,8 @@ var projects = [
 			visualArts: false,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "We Seek",
@@ -145,7 +158,8 @@ var projects = [
 			visualArts: false,
 			drama: false,
 			tma: false,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Thought of You",
@@ -155,7 +169,8 @@ var projects = [
 			visualArts: false,
 			drama: true,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "DancEnsemble",
@@ -165,7 +180,8 @@ var projects = [
 			visualArts: true,
 			drama: true,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "Water Balloons",
@@ -175,7 +191,8 @@ var projects = [
 			visualArts: false,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		},
 		{
 			title: "BYU Women's Chorus Spring Concert",
@@ -185,6 +202,7 @@ var projects = [
 			visualArts: false,
 			drama: false,
 			tma: true,
-			showMe: true
+			showMe: true,
+			pageLink: '#'
 		}
 		];

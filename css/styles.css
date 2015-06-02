@@ -493,6 +493,26 @@ div #project {
                0px 18px 23px rgba(0,0,0,0.1);
 }
 
+.item {
+  -webkit-transition: linear .25s;
+  -moz-transition: linear .25s;
+  -ms-transition: linear .25s;
+  -o-transition: linear .25s;
+  transition: linear .25s;
+}
+.item.ng-enter{
+  opacity: 0;
+}
+.toggle.ng-enter-active{
+  opacity: 1;
+}
+.item.ng-leave{
+  opacity: 1;
+}
+.item.ng-leave-active{
+  opacity: 0;
+}
+
 /* =Media Queries
 -------------------------------------------------------------- */
 @media all and (max-width: 660px) {
@@ -637,25 +657,6 @@ header.smaller nav a {
 nav a:hover,
 nav a:focus {
   outline: none;
-}
-
-.item.ng-move,
-.item.ng-enter,
-.item.ng-leave {
-  -webkit-transition:all linear 0.5s;
-  transition:all linear 0.5s;
-}
-
-.item.ng-leave.ng-leave-active,
-.item.ng-move,
-.item.ng-enter {
-  opacity:0;
-}
-
-.item.ng-leave,
-.item.ng-move.ng-move-active,
-.item.ng-enter.ng-enter-active {
-  opacity:1;
 }
 
 

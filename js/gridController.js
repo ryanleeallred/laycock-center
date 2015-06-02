@@ -2,7 +2,6 @@ var app = angular.module('gridSort');
 
 app.controller('gridController', function($scope, gridData){
 
-	 
 	 $scope.getData = function (){
 		$scope.projects = gridData.getData();
 	}

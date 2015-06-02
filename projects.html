@@ -72,6 +72,7 @@
                     </ul>
                 <div id="projects-grid">
                     <div id="project" class="item" ng-repeat="project in projects" ng-if="project.showMe">
+                    <a ng-href="{{ project.pageLink }}">
                         <div class="shouldShow" >
                         <!-- Put it here for top -->
                              <h4 class="image-title2">{{ project.title }}</h4>
@@ -83,7 +84,7 @@
                                 --><li ng-if="project.drama" id="lidrama">D</li><!--
                                 --><li ng-if="project.tma" id="litma">TMA</li>
                             </ul>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
             </div>
