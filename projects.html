@@ -17,6 +17,7 @@
 
 <!-- js -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.3.15/angular-animate.js"></script>
 <script src="js/classie.js"></script>
 <script>
     function init() {
@@ -60,9 +61,8 @@
             <div class="container">
                 <h1>See what we're working on</h1>
                 <p>Cupcake ipsum dolor sit amet lollipop. Macaroon candy cotton candy bear claw macaroon carrot cake pastry icing dessert. Cupcake pastry tart sesame snaps lollipop donut pie. Cookie apple pie toffee lemon drops jelly beans cheesecake sweet roll. Jelly-o soufflé donut candy canes wafer dragée sweet cheesecake. Macaroon caramels pie cookie gummi bears. Ice cream jelly-o toffee cookie gingerbread cookie. Soufflé fruitcake jelly-o jelly chupa chups jelly beans. Dragée marzipan pastry macaroon oat cake muffin soufflé topping liquorice. Jelly-o chocolate cake lollipop.</p>
-
                     <br>
-                                        <ul class="project-menu">
+                    <ul class="project-menu">
                            <li class="org" id="ALL-ORGS" ng-click="showProjects('all')">ALL</li><!--
                         --><li class="org" id="C" ng-click="showProjects('comms')">COMMS</li><!--
                         --><li class="org" id="A" ng-click="showProjects('animation')">ANIMATION</li><!--
@@ -71,7 +71,7 @@
                         --><li class="org" id="TMA" ng-click="showProjects('tma')">TMA</li>
                     </ul>
                 <div id="projects-grid">
-                    <div id="project" ng-repeat="project in projects" ng-if="project.showMe">
+                    <div id="project" class="item" ng-repeat="project in projects" ng-if="project.showMe">
                         <div class="shouldShow" >
                         <!-- Put it here for top -->
                              <h4 class="image-title2">{{ project.title }}</h4>
@@ -83,7 +83,6 @@
                                 --><li ng-if="project.drama" id="lidrama">D</li><!--
                                 --><li ng-if="project.tma" id="litma">TMA</li>
                             </ul>
-                            
                         </div>
                     </div>
                 </div>

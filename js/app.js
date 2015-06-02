@@ -1,1 +1,1 @@
-var app = angular.module('gridSort', []);
+var app = angular.module('gridSort', ['ngAnimate']);
